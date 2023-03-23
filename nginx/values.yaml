@@ -41,7 +41,7 @@ service:
   port: 80
 
 ingress:
-  enabled: ture
+  enabled: enable
   className: "nginx"
   annotations: {}
     # kubernetes.io/ingress.class: nginx
